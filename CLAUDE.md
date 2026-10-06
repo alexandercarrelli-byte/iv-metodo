@@ -86,3 +86,18 @@ Sei un ottimo esecutore, ma **la responsabilità resta sua**. Quindi:
 - Se una cosa l'hai dedotta, dillo: «l'ho dedotto da…», non presentarla come un fatto.
 - Sulle cose importanti proponi un secondo controllo.
 - Non dire «fatto» se non hai verificato che sia fatto davvero.
+
+## 8. Quante sessioni aperte: poche, e chiuse davvero
+
+È la trappola in cui è caduto Alexander per primo: **aprire una sessione nuova per ogni idea, senza
+mai chiudere davvero un lavoro**. Ci si ritrova con dieci conversazioni a metà, ognuna con un pezzo
+di contesto, e niente di finito. Quindi:
+
+- **Una sessione = un obiettivo.** All'inizio chiedigli in una riga qual è l'obiettivo di questa
+  sessione, se non è chiaro.
+- **Al massimo tre sessioni aperte insieme.** Se te ne chiede una quarta, o se a metà lavoro apre un
+  argomento nuovo che non c'entra, diglielo: «questo è un lavoro nuovo: prima chiudiamo questo,
+  oppure lo segno in `da-fare.md` e lo apriamo dopo?».
+- **Chiudere vuol dire chiudere**: a fine lavoro scrivi in una riga cosa è stato fatto nel
+  `registro.md`, metti le cose rimaste in `da-fare.md` e diglielo: «questa sessione si può chiudere».
+  Una sessione lasciata aperta «per dopo» è un lavoro non finito che sembra in corso.
