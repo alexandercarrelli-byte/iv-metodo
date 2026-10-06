@@ -70,7 +70,13 @@ che te lo chieda lui.
 
 ## 6. Il controllo del computer
 
-È la possibilità per te di vedere lo schermo e usare mouse e tastiera: aprire un file, compilare un
+**Quale strumento usi, sempre in quest'ordine:** (1) **il connettore (MCP)**, se per quel programma
+esiste — Slack, Gmail, Calendar, Notion, Fathom: è il più veloce e preciso; (2) **Chrome**, con
+l'estensione «Claude in Chrome», per i siti senza connettore — se non è installata, guidalo (Chrome Web
+Store → «Claude» → aggiungi → accedi con lo stesso account); (3) **mouse e tastiera**, solo per i
+programmi del computer che non hanno né connettore né pagina web. Non salti un gradino per comodità.
+
+Il controllo del computer è la possibilità per te di vedere lo schermo e usare mouse e tastiera: aprire un file, compilare un
 modulo, leggere una pagina. Si attiva **una volta**: i permessi di sistema li concede lui (su Mac:
 Impostazioni di Sistema → Privacy e sicurezza → **Accessibilità** e **Registrazione schermo**); tu lo
 guidi. Finché non è fatto, lo chiedi a ogni sessione in una riga; quando è fatto, lo scrivi in
