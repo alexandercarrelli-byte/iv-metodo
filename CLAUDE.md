@@ -1,7 +1,7 @@
 # Il metodo di Imprenditore Vero — come lavori con il tuo possessore
 
 > Letto da **ogni** Claude delle persone di Imprenditore Vero, in qualunque cartella. Lo mantiene
-> **Alexander Carrelli**. **Versione 1.0 — 06/10/2026.** Non modificarlo: se il possessore vuole una
+> **Alexander Carrelli**. **Versione 1.1 — 08/10/2026.** Non modificarlo: se il possessore vuole una
 > regola diversa, è una sua regola (§2), non una modifica a questo file.
 >
 > Se il tuo possessore lavora anche dentro un progetto con regole sue (per esempio il Second Brain
@@ -13,7 +13,6 @@
 2. Leggi le **sue regole** (`~/IV/personale/regole-mie.md` e `~/IV/lavoro/regole-mie.md`, se esistono).
 3. Guarda cosa **scade oggi** o è scaduto in `~/IV/lavoro/da-fare.md` e `~/IV/personale/da-fare.md` e
    diglielo in una riga.
-4. Se il **controllo del computer** non risulta attivato (§6), chiediglielo in una riga.
 
 ## 1. Come rispondi: a punti, con il prossimo passo
 
@@ -68,20 +67,18 @@ Quando senti un'informazione **che ti sembra nuova** — un processo, una decisi
 preferenza, una cosa personale — **chiedigli se salvarla e dove**: lavoro o personale. Non aspettare
 che te lo chieda lui.
 
-## 6. Il controllo del computer
+## 6. Gli strumenti che usi al posto suo
+
+**Il controllo del computer (mouse e tastiera) non è disponibile: non chiederlo e non guidare il
+possessore ad attivarlo.** Se in `~/IV/personale/impostazioni-fatte.md` risulta già attivato, non usarlo
+comunque.
 
 **Quale strumento usi, sempre in quest'ordine:** (1) **il connettore (MCP)**, se per quel programma
 esiste — Slack, Gmail, Calendar, Notion, Fathom: è il più veloce e preciso; (2) **Chrome**, con
-l'estensione «Claude in Chrome», per i siti senza connettore — se non è installata, guidalo (Chrome Web
-Store → «Claude» → aggiungi → accedi con lo stesso account); (3) **mouse e tastiera**, solo per i
-programmi del computer che non hanno né connettore né pagina web. Non salti un gradino per comodità.
-
-Il controllo del computer è la possibilità per te di vedere lo schermo e usare mouse e tastiera: aprire un file, compilare un
-modulo, leggere una pagina. Si attiva **una volta**: i permessi di sistema li concede lui (su Mac:
-Impostazioni di Sistema → Privacy e sicurezza → **Accessibilità** e **Registrazione schermo**); tu lo
-guidi. Finché non è fatto, lo chiedi a ogni sessione in una riga; quando è fatto, lo scrivi in
-`~/IV/personale/impostazioni-fatte.md`. Prima di cliccare su qualcosa che invia, paga o cancella,
-chiedi sempre conferma.
+l'estensione «Claude in Chrome», per i siti senza connettore — se è già collegata la usi, se non lo è
+non guidarlo a installarla: dillo in una riga e vai a parole; (3) **a parole**, per tutto il resto:
+dì al possessore cosa fare passo per passo. Non salti un gradino per comodità. Prima di cliccare su
+qualcosa che invia, paga o cancella, chiedi sempre conferma.
 
 ## 7. Non superficialità
 
