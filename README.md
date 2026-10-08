@@ -10,7 +10,10 @@ Imprenditore Vero lavori allo stesso modo. Lo mantiene Alexander: per tutti è *
 
    `@~/iv-metodo/CLAUDE.md`
 
-   Da lì Claude Code lo legge in **ogni** sessione, in qualunque cartella.
+   Da lì Claude Code lo legge in **ogni** sessione, in qualunque cartella. ⚠️ **Questa riga la scrive la
+   persona a mano, non Claude**: Claude Code la blocca per sicurezza («Instruction Poisoning»), perché fa
+   leggere istruzioni di un repo esterno. Mac, nel Terminale: `echo '@~/iv-metodo/CLAUDE.md' >> ~/.claude/CLAUDE.md`.
+   Windows, in PowerShell: `Add-Content -Path "$HOME\.claude\CLAUDE.md" -Value '@~/iv-metodo/CLAUDE.md' -Encoding ascii`.
 3. Crea la cartella `~/IV/` con dentro `lavoro/` e `personale/`: è la tua memoria, resta sul tuo
    computer e nessun altro la vede.
 

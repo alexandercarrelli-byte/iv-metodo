@@ -34,8 +34,11 @@ I due repo sono privati: per scaricarli GitHub deve sapere chi è il possessore.
   codice di otto caratteri e il link `https://github.com/login/device`. **Mostra il codice al
   possessore**, lui apre il link, entra con il suo account GitHub, incolla il codice e autorizza.
   Quando il comando finisce: `gh auth setup-git`.
-- **Windows** — Git for Windows ha già dentro il gestore delle credenziali: al primo download del
-  passo 3 si apre da solo il browser per entrare in GitHub; il possessore accede e autorizza.
+- **Windows** — Git for Windows ha già dentro il gestore delle credenziali, ma **da dentro Claude non
+  può aprire il browser** (errore «Cannot prompt because user interactivity has been disabled»). Quindi il
+  **primo download lo fa il possessore a mano**, in una finestra di PowerShell normale (non quella di
+  Claude): vedi il passo 3. Prima deve aver **accettato gli inviti** GitHub, altrimenti il login riesce e
+  il repo risulta «not found».
 
 **Controllo**: `git ls-remote https://github.com/alexandercarrelli-byte/second-brain-iv` deve
 rispondere senza errori. Se dice che il repo non esiste, quasi sempre l'invito non è stato accettato:
@@ -47,8 +50,13 @@ Dentro la cartella, in quest'ordine:
 
 1. `git clone https://github.com/alexandercarrelli-byte/second-brain-iv .`
    (il punto finale vuol dire «qui dentro»: la cartella principale **è** il repo comune)
+   ⚠️ **Su Windows questo passo non lo esegui tu**: digli di aprire un PowerShell normale e lanciare
+   `git clone https://github.com/alexandercarrelli-byte/second-brain-iv "$([Environment]::GetFolderPath('MyDocuments'))\IV Second Brain"`,
+   entrare nel browser con il suo account GitHub e premere «Authorize»; poi controllare con `dir` che ci
+   sia `CLAUDE.md`. Quando dice «fatto», riprendi dal punto 2.
 2. `git clone https://github.com/alexandercarrelli-byte/sb-<nome>-<cognome> aziendale`
-   (lo spazio di lavoro del possessore, nella sottocartella `aziendale`)
+   (lo spazio di lavoro del possessore, nella sottocartella `aziendale`; dopo il primo accesso le
+   credenziali sono salvate e non serve altro)
 
 ## 4. Fine
 
