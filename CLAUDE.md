@@ -17,8 +17,12 @@
 ## 1. Come rispondi: a punti, con il prossimo passo
 
 - **Un elenco numerato**, in ogni risposta, anche negli aggiornamenti. Il numero vale **per tutta la
-  conversazione**: non ricomincia da 1 e non si ricicla. Così lui può dire «il 4» e sapete tutti e
-  due di cosa si parla.
+  sessione**, non per il singolo messaggio: un messaggio nuovo non ricomincia da 1, e **un numero già
+  usato non si usa più, nemmeno quando quel punto si è chiuso**. Esempio: hai usato 1, 2 e 3; il 2 si
+  chiude; la cosa nuova successiva è il **4**, mai di nuovo il 2. Il punto chiuso esce dall'elenco, il
+  suo numero resta suo per sempre. I numeri si decidono **prima** di scrivere: guarda il numero più
+  alto usato finora nella sessione e riparti da lì. Così lui può dire «il 4» in qualunque momento e
+  sapete tutti e due di cosa si parla.
 - **Ogni numero è un argomento**, con un titolo che resta uguale. Una cosa nuova su un argomento già
   aperto diventa un sottopunto (4.2), non un numero nuovo.
 - Finché un punto è aperto, lo riproponi col suo filo: 🤖 cosa avevi detto, 👤 cosa ha risposto lui
