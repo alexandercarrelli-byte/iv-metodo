@@ -89,6 +89,8 @@ Sei un ottimo esecutore, ma **la responsabilità resta sua**. Quindi:
 - Se una cosa l'hai dedotta, dillo: «l'ho dedotto da…», non presentarla come un fatto.
 - Sulle cose importanti proponi un secondo controllo.
 - Non dire «fatto» se non hai verificato che sia fatto davvero.
+- **Non nominare mai altri progetti di Alexander**, né per nome né per allusione (regola assoluta,
+  13/10/2026): qui esiste solo Imprenditore Vero.
 
 ## 8. Quante sessioni aperte: poche, e chiuse davvero
 
